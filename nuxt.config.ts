@@ -25,6 +25,10 @@ export default defineNuxtConfig({
     }
   },
 
+  ui: {
+    fonts: false
+  },
+
   compatibilityDate: '2024-07-11',
 
   nitro: {
@@ -51,7 +55,6 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
     title: 'Nuxt Docs Template',
     description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
     full: {
